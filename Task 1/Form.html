@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        #field {
+            width: 600px;
+        }
+    </style>
 </head>
 <body>
     <form>
-        <legend>Side Hustle</legend>
+        <div><h1>REGISTRATION FORM</h1></div>
+        <fieldset id="field">
+            <legend>Side Hustle</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Surname and First name"> <br>
+            <input type="email" id="emailadd" required>
+        </fieldset>
+        
     </form>
 </body>
 </html>
