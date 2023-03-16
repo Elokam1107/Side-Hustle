@@ -1,0 +1,23 @@
+<style>
+        body {
+            background-color: lightblue;
+        }
+
+        #form {
+             padding-left: 40%;
+             padding-top: 40px;
+        }
+
+        #field {
+            width: 300px;
+            background-color: white;
+        }
+
+        #header {
+            text-size-adjust: 50px;
+        }
+
+        #submit {
+            margin-left: 40%;
+        }
+    </style>
