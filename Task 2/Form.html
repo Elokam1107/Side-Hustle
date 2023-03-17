@@ -27,22 +27,9 @@
 		    </select><br><br>
             <label for="password">Password:</label>
 		    <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" id="submit" value="Submit">
+            <input type="submit" id="submit" value="Submit" onclick="alert('Submitted Successfully')">
         </fieldset>
         
     </form>
-    <script>
-        const form = document.getElementById('form');
-		const successMessage = document.createElement('p');
-		successMessage.classList.add('success-message');
-		successMessage.textContent = 'Form submitted successfully!';
-
-        form.addEventListener('submit', (event) => {
-			event.preventDefault();
-			// Process the form data here
-			form.parentNode.insertBefore(successMessage, form.nextSibling);
-			form.reset();
-		});
-    </script>
 </body>
 </html>

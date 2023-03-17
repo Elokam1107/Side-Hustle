@@ -1,5 +1,5 @@
         body {
-            background-color: lightblue;
+            background-image:url("Church\ Logo.jpg");
         }
 
         #form {
@@ -13,9 +13,26 @@
         }
 
         #header {
-            text-size-adjust: 50px;
+            color: brown;
+            font-size: larger;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bolder;
         }
 
         #submit {
             margin-left: 40%;
+            background-color: green;
+            color: white;
+        }
+
+        #logo {
+            width: 100%;
+        }
+
+        h1 {
+            color: azure;
+        }
+
+        script {
+            background-color: aliceblue;
         }
